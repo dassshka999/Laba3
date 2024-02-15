@@ -35,7 +35,6 @@ fun MyAlertDialog() {
                 shouldShowDialog.value = false
                 FundamentalsRouter.navigateTo(Screen.Navigation)
             },
-
             title = { Text(text = stringResource(id = R.string.title_alertDialog)) },
             text = { Text(text = stringResource(id = R.string.alertDialog_about)) },
             confirmButton = {
